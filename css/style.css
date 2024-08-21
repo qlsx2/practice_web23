@@ -38,8 +38,8 @@
     transform: translate(-50%, 0);
     width: 120px;
 
-    background-color: #fff;
-    border: 2px soild #ddd;
+    background: #fff;
+    border: 2px solid #ddd;
 }
 
 .header .inner .gnb>ul>li .sub::before {
@@ -62,7 +62,6 @@
 }
 
 .header .inner .gnb>ul>li .sub a {
-    position: relative;
     display: block;
     line-height: 40px;
     text-align: center;
@@ -80,7 +79,7 @@
 }
 
 .main_visual .itm {
-    height: calc(100vh - -120px);
+    height: calc(100vh - 120px);
 }
 
 .main_visual .itm01 {
@@ -199,11 +198,12 @@
 }
 
 .footer .inner .copy address {
-    font-style: 1;
+    font-style: normal;
 }
 
 .footer .inner .sns {
     display: flex;
+    gap: 8px;
 }
 
 .footer .inner .sns i {
